@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机详情页</title>
+    <meta name="description" content="品优购PYG.COM-专业的综合网上购物商城,
+    销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个
+    品牌优质商品.便捷、诚信的服务,为您提供愉悦的网上购物体验！" />
+    <meta name="keywords" content="网上购物,手机,电脑,数码,手表,京东" />
+    <!-- 引入icon图标 -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- 引入css初始化文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式的css文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入detail的css文件 -->
+    <link rel="stylesheet" href="css/detail.css">
+    <!-- 引入detail.js文件 -->
+    <script src="js/detail.js"></script>
+</head>
+
+<body>
+    <!-- 顶部快捷导航start -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>品优购欢迎你！</li>
+                    <li>
+                        <a href="#">请登录</a>
+                        <a href="register.html" class="style-red">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">我的品优购</a><i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">品优购会员</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">关注品优购</a><i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">客户服务</a><i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">网站导航</a><i class="icomoon"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部快捷导航end -->
+
+    <!-- header制作 -->
+    <div class="header w">
+        <!-- logo -->
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="品优购">品优购</a>
+            </h1>
+        </div>
+        <!-- 搜索 -->
+        <div class="search">
+            <input type="text" class="text" value="语言开发">
+            <button class="btn">搜索</button>
+        </div>
+        <!-- 热词 -->
+        <div class="hotwrods">
+            <a href="#" class="style-red">优惠首发</a>
+            <a href="#">亿元团购</a>
+            <a href="#">9.9元团购</a>
+            <a href="#">美满99减30</a>
+            <a href="#">办公用品</a>
+            <a href="#">电脑</a>
+            <a href="#">手机</a>
+        </div>
+        <!-- 购物车 -->
+        <div class="shopcar">
+            <i class="car"></i>我的购物车<i class="arrow"></i>
+            <i class="count">8</i>
+        </div>
+    </div>
+    <!-- header结束 -->
+
+    <!-- nav start -->
+    <div class="nav">
+        <div class="w">
+            <!-- 左侧下拉菜单 -->
+            <div class="dropdown fl">
+                <div class="dt">全部商品分类</div>
+                <div class="dd" style="display: none;">
+                    <ul>
+                        <li class="menu_item"><a href="#">家用电器</a><i> </i></li>
+                        <li class="menu_item"><a href="#">手机、数码、通信</a><i> </i></li>
+                        <li class="menu_item"><a href="#">电脑、办公</a><i> </i></li>
+                        <li class="menu_item"><a href="#">家居、家具、家装、厨具</a><i> </i></li>
+                        <li class="menu_item"><a href="#">男装、女装、童装、内衣</a><i> </i></li>
+                        <li class="menu_item"><a href="#">个户化妆、清洁用品、宠物</a><i> </i></li>
+                        <li class="menu_item"><a href="#">鞋靴、箱包、珠宝、奢侈品</a><i> </i></li>
+                        <li class="menu_item"><a href="#">运动户外、钟表</a><i> </i></li>
+                        <li class="menu_item"><a href="#">汽车、汽车用品</a><i> </i></li>
+                        <li class="menu_item"><a href="#">母婴、玩具乐器</a><i> </i></li>
+                        <li class="menu_item"><a href="#">食品、酒类、生鲜、特产</a><i> </i></li>
+                        <li class="menu_item"><a href="#">医药保健</a><i> </i></li>
+                        <li class="menu_item"><a href="#">图书、音像、电子书</a><i> </i></li>
+                        <li class="menu_item"><a href="#">彩票、旅行、充值、票务</a><i> </i></li>
+                        <li class="menu_item"><a href="#">理财、众筹、白条、保险</a><i> </i></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧导航 -->
+            <div class="navitems fl">
+                <ul>
+                    <li><a href="#">服装城</a></li>
+                    <li><a href="#">美妆馆</a></li>
+                    <li><a href="#">超市</a></li>
+                    <li><a href="#">全球购</a></li>
+                    <li><a href="#">闪购</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">拍卖</a></li>
+                    <li><a href="#">有趣</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- nav end -->
+
+    <!-- 详情内容start -->
+    <!-- 面包屑导航 -->
+    <div class="de-container w">
+        <div class="crumb-wrap">
+            <a href="#">手机、数码、通讯  </a>〉
+            <a href="#">手机 </a>〉
+            <a href="#">Apple苹果</a>〉
+            <a href="#">iphone 6S Plus系类 </a>
+        </div>
+        <!-- 产品介绍模块 -->
+        <div class="product-intro clearfix">
+            <!-- 预览区域 -->
+            <div class="preview-wrap fl">
+                <div class="preview-img">
+                    <img src="upload/s3.png" alt="">
+                    <div class="mask"></div>
+                    <div class="big"><img src="upload/big.jpg" alt=""></div>
+                </div>
+                <div class="preview-list">
+                    <a href="#" class="arrow-prev"></a>
+                    <a href="#" class="arrow-next"></a>
+                    <ul class="list-item">
+                        <li><img src="upload/pre_03.jpg" alt=""></li>
+                        <li class="current"><img src="upload/pre_03.jpg" alt=""></li>
+                        <li><img src="upload/pre_03.jpg" alt=""></li>
+                        <li><img src="upload/pre_03.jpg" alt=""></li>
+                        <li><img src="upload/pre_03.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 产品信息区域 -->
+            <div class="iteminfo-wrap fr">
+                <div class="sku-name">
+                    Apple iPhone 6s（A1700）64G玫瑰金色 移动通信电信4G手机
+                </div>
+                <div class="news">
+                    推荐选择下方[移动优惠购],手机套餐齐搞定,不用换号,每月还有花费返
+                </div>
+                <div class="summary">
+                    <dl class="summary-price">
+                        <dt>价格</dt>
+                        <dd>
+                            <i class="price">￥5299.00</i>
+                            <a href="#">降价通知 </a>
+                            <div class="remark">累计评价612188</div>
+                        </dd>
+                    </dl>
+                    <dl class="summary-promotion">
+                        <dt>促销</dt>
+                        <dd>
+                            <em>加购价</em> 满999.00另加20.00元，或满1999.00另加30.00元，或满2999.00另加40.00元，即可在购物车换 购热销商品 详情 》
+                        </dd>
+                    </dl>
+                    <dl class="summary-support">
+                        <dt>支持</dt>
+                        <dd>
+                            以旧换新，闲置手机回收 4G套餐超值抢 礼品购
+                        </dd>
+                    </dl>
+                    <dl class="choose-color">
+                        <dt>选择颜色</dt>
+                        <dd>
+                            <a href="javascript:;" class="current">玫瑰金</a>
+                            <a href="javascript:;">金色</a>
+                            <a href="javascript:;">白色</a>
+                            <a href="javascript:;">香槟金</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose-version">
+                        <dt>选择版本</dt>
+                        <dd>
+                            <a href="javascript:;">公开版</a>
+                            <a href="javascript:;" class="current">移动4G</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose-type">
+                        <dt>购买方式</dt>
+                        <dd>
+                            <a href="javascript:;" class="current">官方标配</a>
+                            <a href="javascript:;">电信优惠购</a>
+                            <a href="javascript:;">移动优惠购</a>
+                        </dd>
+                    </dl>
+                    <div class="choose-btns">
+                        <div class="choose-amount">
+                            <input type="text" value="10">
+                            <a href="javascript:;" class="add">+</a>
+                            <a href="javascript:;" class="reduce
+                            ">-</a>
+                        </div>
+                        <a href="#" class="addcar">加入购物车</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 产品细节模块 -->
+        <div class="product-detail clearfix">
+            <!-- aside -->
+            <div class="aside fl">
+                <div class="tab-list">
+                    <ul>
+                        <li class="first-tab current">相关分类</li>
+                        <li class="second-tab">推荐品牌</li>
+                    </ul>
+                </div>
+                <div class="tab-con">
+                    <ul>
+                        <li>手机</li>
+                        <li>手机壳</li>
+                        <li>内存卡</li>
+                        <li>iphone配件</li>
+                        <li>贴膜</li>
+                        <li>手机耳机</li>
+                        <li>移动电源</li>
+                        <li>平板电脑</li>
+                        <li>笔记本</li>
+                        <li>蓝牙耳机</li>
+                    </ul>
+                </div>
+                <div class="tab-con2">
+                    <ul>
+                        <li>
+                            <img src="upload/detail_07.jpg" alt="">
+                            <h5>商品名称：APPLEiPhone 6s Plus金属机身，拍照神器 系统：苹果（IOS）
+                            </h5>
+                            <div class="aside-price">￥19</div>
+                            <a href="#" class="as-addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/detail_07.jpg" alt="">
+                            <h5>商品名称：APPLEiPhone 6s Plus金属机身，拍照神器 系统：苹果（IOS）
+                            </h5>
+                            <div class="aside-price">￥19</div>
+                            <a href="#" class="as-addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/detail_07.jpg" alt="">
+                            <h5>商品名称：APPLEiPhone 6s Plus金属机身，拍照神器 系统：苹果（IOS）
+                            </h5>
+                            <div class="aside-price">￥19</div>
+                            <a href="#" class="as-addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/detail_07.jpg" alt="">
+                            <h5>商品名称：APPLEiPhone 6s Plus金属机身，拍照神器 系统：苹果（IOS）
+                            </h5>
+                            <div class="aside-price">￥19</div>
+                            <a href="#" class="as-addcar">加入购物车</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- detail -->
+            <div class="detail fr">
+                <div class="detail_tab_list">
+                    <ul>
+                        <li class="current">商品介绍</li>
+                        <li>规格与包装 </li>
+                        <li>售后保障</li>
+                        <li>商品评价（50000）</li>
+                        <li>手机社区</li>
+                    </ul>
+                </div>
+                <div class="detail_tab_con">
+                    <div class="item">
+                        <ul class="item_info">
+                            <li>分辨率：1920*1080(FHD)</li>
+                            <li>后置摄像头：1200万像素</li>
+                            <li>前置摄像头：500万像素</li>
+                            <li>核 数：其他</li>
+                            <li>频 率：以官网信息为准</li>
+                            <li>品牌： Apple ♥关注</li>
+                            <li>商品名称：APPLEiPhone 6s Plus</li>
+                            <li>商品编号：1861098</li>
+                            <li>商品毛重：0.51kg</li>
+                            <li>商品产地：中国大陆</li>
+                            <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                            <li>系统：苹果（IOS）</li>
+                            <li>像素：1000-1600万</li>
+                            <li>机身内存：64GB</li>
+                        </ul>
+                        <p><a href="#" class="more">查看更多参数</a></p>
+                        <img src="upload/detail_img_07.jpg" alt="">
+                        <img src="upload/detail_img_10.jpg" alt="">
+                        <img src="upload/detail_img_14.jpg" alt="">
+                    </div>
+                    <!-- <div class="item">规格与包装</div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item">手机社区</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 详情内容start -->
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="w">
+            <!-- mod_service -->
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <i class="mod_service-icon mod_service_zheng"></i>
+                        <div class="mod_service_tit">
+                            <h4>正品保障</h4>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service-icon mod_service_kuai"></i>
+                        <div class="mod_service_tit">
+                            <h4>极速物流</h4>
+                            <p>急速物流，急速送达</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service-icon mod_service_bao"></i>
+                        <div class="mod_service_tit">
+                            <h4>无忧售后</h4>
+                            <p>7天无理由退换货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service-icon mod_service_pai"></i>
+                        <div class="mod_service_tit">
+                            <h4>特色服务</h4>
+                            <p>私人定制家电套餐</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service-icon mod_service_wen"></i>
+                        <div class="mod_service_tit">
+                            <h4>帮助中心</h4>
+                            <p>您的购物指南</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- mod_help -->
+            <div class="mod_help">
+                <dl class="mod_help_list">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#"> 生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_list">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#"> 生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_list">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#"> 生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_list">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#"> 生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_list">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#"> 生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_list mod_help_app">
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="./upload/erweima.png" alt="">
+                        <p>品优购客户端</p>
+                    </dd>
+                </dl>
+            </div>
+            <!-- mod_copyright -->
+            <div class="mod_copyright">
+                <p class="mod_copyright_links">
+                    关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English Site | Contact U
+                </p>
+                <p class="mod_copyright_info">
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br> 京ICP备08001421号京公网安备110108007702
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+</body>
+
+</html>

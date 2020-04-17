@@ -1,0 +1,169 @@
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding: 5px 0 0 15px;
+}
+
+.sk-list li {
+    float: left;
+    line-height: 45px;
+    margin: 0 30px;
+}
+
+.sk-list li a {
+    font-size: 16px;
+    color: #000;
+    /* 字体加粗 */
+    font-weight: 700;
+}
+
+.sk-list li a:hover {
+    color: #c81523;
+}
+
+.sk-con li {
+    float: left;
+    line-height: 45px;
+    margin: 0 20px;
+}
+
+.sk-con li a {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+
+
+/* 列表页内容区域 */
+
+.sk-bd {
+    margin-top: 25px;
+}
+
+.sk-bd ul {
+    width: 1212px;
+    overflow: hidden;
+}
+
+.sk-goods {
+    float: left;
+    position: relative;
+    width: 288px;
+    height: 458px;
+    border: 1px solid transparent;
+    margin: 0 13px 15px 0;
+}
+
+.sk-goods:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk-goods-title {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.sk-goods-price {
+    padding: 0 10px;
+}
+
+.sk-goods-price em {
+    color: #e60012;
+    font-size: 22px;
+}
+
+.sk-goods-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+}
+
+.sk-goods-progres {
+    padding: 0 10px;
+}
+
+.sk-goods-progres em {
+    color: #b1191a;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    /* 让块级元素和文字垂直居中 */
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.bar-in {
+    width: 87%;
+    height: 10px;
+    background-color: #ff2244;
+}
+
+.sk-goods-buy {
+    position: absolute;
+    bottom: 0;
+    width: 289px;
+    height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+
+/* 分页部分 */
+
+.page {
+    margin: 40px 0;
+    /* 里面的文字内容行内块元素居中 */
+    text-align: center;
+}
+
+.page-num a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1xp solid #ccc;
+    background-color: #f7f7f7;
+    line-height: 35px;
+}
+
+.page-num .pn-prev,
+.page-num .pn-next {
+    width: 83px;
+}
+
+.page-num .current {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.page-skip input {
+    width: 46px;
+    height: 35px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all .4s;
+}
+
+.page-skip input:focus {
+    width: 88px;
+    border: 1px solid skyblue;
+}
+
+.page-skip button {
+    width: 54px;
+    height: 35px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
